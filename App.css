@@ -1,0 +1,81 @@
+/* General styles for the entire app */
+.App {
+  text-align: center;
+  background: linear-gradient(to bottom right, #3498db, #8e44ad);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+/* Header styles */
+.App-header {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.App-header h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #f39c12;
+}
+
+/* Styles for card insertion button */
+.insert-card button {
+  background-color: #f39c12;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.insert-card button:hover {
+  background-color: #e67e22;
+}
+
+/* Styles for the ATM form */
+.atm-form {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.atm-form label {
+  display: block;
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.atm-form input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-size: 1em;
+}
+
+.atm-form button {
+  background-color: #f39c12;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.atm-form button:hover {
+  background-color: #e67e22;
+}
